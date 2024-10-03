@@ -33,12 +33,33 @@ namespace hellworld
                                   "[5] - Exist .");
 
                 Console.Write("Enter You Choice : ");
-                char choice = char.Parse(Console.ReadLine());
+                string test = Console.ReadLine();
+
+                if (string.IsNullOrEmpty(test) || test.Length > 1 || int.Parse(test) > 5)
+                {
+                    Console.WriteLine("\n\t====================================");
+                    Console.WriteLine("\t\tinvalid Input");
+                    Console.WriteLine("\t====================================\n");
+                    continue;
+                }
+                char choice = char.Parse(test);
                 switch (choice)
                 {
                     case '1':
-                        Console.Write($"Enter Task Numer {list.Count + 1} : ");
-                        string mission = Console.ReadLine();
+                        string mission;
+                        do
+                        {
+                            Console.Write($"Enter Task Numer {list.Count + 1} : ");
+                            mission = Console.ReadLine();
+                            if (string.IsNullOrEmpty(mission))
+                            {
+                                Console.WriteLine("\n\t====================================");
+                                Console.WriteLine("\t\tEnter Vaild Input");
+                                Console.WriteLine("\t====================================\n");
+
+                            }
+
+                        } while (string.IsNullOrEmpty(mission));
                         list.Add(mission);
                         Console.WriteLine("\t====================================");
                         Console.WriteLine("\t\tTask Added Successfully ^_^");
@@ -79,7 +100,7 @@ namespace hellworld
                         }
                         break;
                     default:
-                       @continue=false;
+                        @continue = false;
                         break;
                 }
             }
@@ -89,9 +110,8 @@ namespace hellworld
             Console.WriteLine("\n\t\t====================================");
             Console.WriteLine("\t\t      Visit Us Again (^ _ ^)");
             Console.WriteLine("\t\t====================================\n");
+          
 
         }
     }
-
-
 }
