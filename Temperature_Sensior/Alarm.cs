@@ -21,7 +21,7 @@ namespace Temperature_Sensior
         public void Fire(object? obj, TempArgs e)
         {
             if (e.Temp > alarm)
-                Console.WriteLine($"\n\t\tWarning !! , Temperature No is More {alarm} Degree\n");
+                Console.WriteLine($"\n\t\tWarning !! , Temperature Now is More {alarm} Degree\n");
         }
     }
 }
