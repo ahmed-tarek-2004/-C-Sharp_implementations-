@@ -1,0 +1,14 @@
+E:\Visual Studio Codes\.net core\Student Grading System\bin\Debug\net8.0\Student Grading System.exe
+E:\Visual Studio Codes\.net core\Student Grading System\bin\Debug\net8.0\Student Grading System.deps.json
+E:\Visual Studio Codes\.net core\Student Grading System\bin\Debug\net8.0\Student Grading System.runtimeconfig.json
+E:\Visual Studio Codes\.net core\Student Grading System\bin\Debug\net8.0\Student Grading System.dll
+E:\Visual Studio Codes\.net core\Student Grading System\bin\Debug\net8.0\Student Grading System.pdb
+E:\Visual Studio Codes\.net core\Student Grading System\obj\Debug\net8.0\Student Grading System.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio Codes\.net core\Student Grading System\obj\Debug\net8.0\Student Grading System.AssemblyInfoInputs.cache
+E:\Visual Studio Codes\.net core\Student Grading System\obj\Debug\net8.0\Student Grading System.AssemblyInfo.cs
+E:\Visual Studio Codes\.net core\Student Grading System\obj\Debug\net8.0\Student Grading System.csproj.CoreCompileInputs.cache
+E:\Visual Studio Codes\.net core\Student Grading System\obj\Debug\net8.0\Student Grading System.dll
+E:\Visual Studio Codes\.net core\Student Grading System\obj\Debug\net8.0\refint\Student Grading System.dll
+E:\Visual Studio Codes\.net core\Student Grading System\obj\Debug\net8.0\Student Grading System.pdb
+E:\Visual Studio Codes\.net core\Student Grading System\obj\Debug\net8.0\Student Grading System.genruntimeconfig.cache
+E:\Visual Studio Codes\.net core\Student Grading System\obj\Debug\net8.0\ref\Student Grading System.dll
